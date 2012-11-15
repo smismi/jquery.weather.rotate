@@ -1,11 +1,4 @@
 jQuery(document).ready(function () {
-//   jQuery('#arrow').transform({rotate:'30deg'});
-//   jQuery('#arrow').rotate({deg:82});
-//   jQuery('#arrow').rotate(90);
-//   jQuery('#arrow').css({ rotate: '30deg' });
-
-//    console.log(getAngle(rotation_atmpress_data)-90)
-//
    jQuery('#arrow').rotate({deg:getAngle(rotation_atmpress_data)-90});
 });
 
